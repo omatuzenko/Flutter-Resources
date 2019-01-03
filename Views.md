@@ -1,21 +1,33 @@
-Flutter / Android / iOS corresponding widgets:
+Flutter / Android / iOS corresponding widgets
 
+## Table Of Contents
+- [Basic widgets](#basic-widgets)
+- [Containers](#containers)
+
+## Basic widgets
 
 | Flutter | Android  | iOS |
 |:--------:|:--------:|:--------:|
-| [Text](https://docs.flutter.io/flutter/widgets/Text-class.html) | [TextView](https://developer.android.com/reference/android/widget/TextView) | 
-| [TextField](https://docs.flutter.io/flutter/material/TextField-class.html) | [EditText](https://developer.android.com/reference/android/widget/EditText) | [UITextField](https://developer.apple.com/documentation/uikit/uitextfield)|
+| [Text](https://docs.flutter.io/flutter/widgets/Text-class.html) | [TextView](https://developer.android.com/reference/android/widget/TextView) | [UILabel](https://developer.apple.com/documentation/uikit/uilabel) |
+| [TextField](https://docs.flutter.io/flutter/material/TextField-class.html) | [EditText](https://developer.android.com/reference/android/widget/EditText) | [UITextField](https://developer.apple.com/documentation/uikit/uitextfield) |
+| [RaisedButton](https://docs.flutter.io/flutter/material/RaisedButton-class.html) | [Button](https://developer.android.com/reference/android/widget/Button.html) | [Button](https://developer.apple.com/documentation/uikit/uibutton)
+| [FlatButton](https://docs.flutter.io/flutter/material/FlatButton-class.html) | [BorderlessButton](https://developer.android.com/guide/topics/ui/controls/button#Borderless)
+| [Checkbox](https://docs.flutter.io/flutter/material/Checkbox-class.html) | [CheckBox](https://developer.android.com/reference/android/widget/CheckBox) | 
+| [RaisedButton](https://docs.flutter.io/flutter/material/RaisedButton-class.html)/[FlatButton](https://docs.flutter.io/flutter/material/FlatButton-class.html) | [ImageButton](https://developer.android.com/reference/android/widget/ImageButton) | 
+| [Image](https://docs.flutter.io/flutter/widgets/Image-class.html) | [ImageView](https://developer.android.com/reference/android/widget/ImageView) | 
+| [Switch](https://docs.flutter.io/flutter/material/Switch-class.html) | [Switch](https://developer.android.com/reference/android/widget/Switch) |
+
+
+## Containers
+
+| Flutter | Android  | iOS |
+|:--------:|:--------:|:--------:|
 |[ExpandableListView](https://developer.android.com/reference/android/widget/ExpandableListView) |[ListView](https://docs.flutter.io/flutter/widgets/ListView-class.html) + [ExpansionTile](https://flutter.io/docs/catalog/samples/expansion-tile-sample)
-|[Button](https://developer.android.com/reference/android/widget/Button.html) | [RaisedButton](https://docs.flutter.io/flutter/material/RaisedButton-class.html)
-|[BorderlessButton](https://developer.android.com/guide/topics/ui/controls/button#Borderless) | [FlatButton](https://docs.flutter.io/flutter/material/FlatButton-class.html)
 |[CalendarView](https://developer.android.com/reference/android/widget/CalendarView)| 
-|[CheckBox](https://developer.android.com/reference/android/widget/CheckBox) | [Checkbox](https://docs.flutter.io/flutter/material/Checkbox-class.html)
 |[DatePicker](https://developer.android.com/reference/android/widget/DatePicker) | [showDatePicker](https://docs.flutter.io/flutter/material/showDatePicker.html) 
 |[FrameLayout](https://developer.android.com/reference/android/widget/FrameLayout) |[Stack](https://docs.flutter.io/flutter/widgets/Stack-class.html)
 |[GridView](https://developer.android.com/guide/topics/ui/layout/gridview) | [GridView](https://docs.flutter.io/flutter/widgets/GridView-class.html)
 |[HorizontalScrollView](https://developer.android.com/reference/android/widget/HorizontalScrollView) | [ListView](https://flutter.io/docs/cookbook/lists/horizontal-list)
-|[ImageButton](https://developer.android.com/reference/android/widget/ImageButton) | [RaisedButton](https://docs.flutter.io/flutter/material/RaisedButton-class.html)/[FlatButton](https://docs.flutter.io/flutter/material/FlatButton-class.html)
-|[ImageView](https://developer.android.com/reference/android/widget/ImageView) | [Image](https://docs.flutter.io/flutter/widgets/Image-class.html)
 |[LinearLayout](https://developer.android.com/reference/android/widget/LinearLayout) | [Column](https://docs.flutter.io/flutter/widgets/Column-class.html)/[Row](https://docs.flutter.io/flutter/widgets/Row-class.html)
 |[ListView](https://developer.android.com/reference/android/widget/ListView) | [ListView](https://docs.flutter.io/flutter/widgets/ListView-class.html)
 |[NumberPicker](https://developer.android.com/reference/android/widget/NumberPicker) | [Custom Widget](https://pub.dartlang.org/packages/numberpicker)
@@ -28,7 +40,6 @@ Flutter / Android / iOS corresponding widgets:
 |[ScrollView](https://developer.android.com/reference/android/widget/ScrollView) | [ListView](https://docs.flutter.io/flutter/widgets/ListView-class.html)
 |[SeekBar](https://developer.android.com/reference/android/widget/SeekBar) | [Slider](https://docs.flutter.io/flutter/material/Slider-class.html)
 |[Spinner](https://developer.android.com/reference/android/widget/Spinner) | [DropDownButton](https://docs.flutter.io/flutter/material/DropdownButton-class.html)
-|[Switch](https://developer.android.com/reference/android/widget/Switch) | [Switch](https://docs.flutter.io/flutter/material/Switch-class.html)
 |[TableLayout](https://developer.android.com/reference/android/widget/TableLayout) | [Table](https://docs.flutter.io/flutter/widgets/Table-class.html)
 |[TimePicker](https://developer.android.com/reference/android/widget/TimePicker) | [showDatePicker](https://docs.flutter.io/flutter/material/showDatePicker.html)
 [Toast](https://developer.android.com/reference/android/widget/Toast) | [fluttertoast](https://pub.dartlang.org/packages/fluttertoast)
