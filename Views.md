@@ -54,11 +54,11 @@
 ## Containers
 | Flutter | Android  | iOS |
 |:--------:|:--------:|:--------:|
-| [Row](https://docs.flutter.io/flutter/widgets/Row-class.html), [Column](https://docs.flutter.io/flutter/widgets/Column-class.html) | [LinearLayout](https://developer.android.com/reference/android/widget/LinearLayout) | | [UIStackView](https://developer.apple.com/documentation/uikit/uistackview) |
+| [Row](https://docs.flutter.io/flutter/widgets/Row-class.html), [Column](https://docs.flutter.io/flutter/widgets/Column-class.html) | [LinearLayout](https://developer.android.com/reference/android/widget/LinearLayout) | [UIStackView](https://developer.apple.com/documentation/uikit/uistackview) |
 | N/A | [RelativeLayout](https://developer.android.com/reference/android/widget/RelativeLayout), [ConstraintLayout](https://developer.android.com/reference/android/support/constraint/ConstraintLayout) | [Auto Layout](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html) |
 | [Table](https://docs.flutter.io/flutter/widgets/Table-class.html) | [TableLayout](https://developer.android.com/reference/android/widget/TableLayout) | [UITableViewCell](https://developer.apple.com/documentation/uikit/UITableViewCell) |
 | [GridView](https://docs.flutter.io/flutter/widgets/GridView-class.html) | [GridView](https://developer.android.com/guide/topics/ui/layout/gridview) | [UICollectionView](https://developer.apple.com/documentation/uikit/uicollectionview) |
-| [RefreshIndicator](https://docs.flutter.io/flutter/material/RefreshIndicator-class.html), [SwipeRefreshLayout](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout) | [UIRefreshControl](https://developer.apple.com/documentation/uikit/UIRefreshControl) |
+| [RefreshIndicator](https://docs.flutter.io/flutter/material/RefreshIndicator-class.html) | [SwipeRefreshLayout](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout) | [UIRefreshControl](https://developer.apple.com/documentation/uikit/UIRefreshControl) |
 | [Scaffold](https://docs.flutter.io/flutter/material/Scaffold-class.html) | [CoordinatorLayout](https://developer.android.com/reference/android/support/design/widget/CoordinatorLayout) | [Auto Layout](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html) |
 | [Card](https://docs.flutter.io/flutter/material/Card-class.html) | [CardView](https://docs.flutter.io/flutter/material/Card-class.html) | N/A |
 | [Stack](https://docs.flutter.io/flutter/widgets/Stack-class.html) | [FrameLayout](https://developer.android.com/reference/android/widget/FrameLayout) | [UIStackView](https://developer.apple.com/documentation/uikit/uistackview) |
