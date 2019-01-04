@@ -37,7 +37,7 @@
 | [LinearProgressIndicator](https://docs.flutter.io/flutter/material/LinearProgressIndicator-class.html) | [ProgressBar](https://developer.android.com/reference/android/widget/ProgressBar) | [UIProgressView](https://developer.apple.com/documentation/uikit/UIProgressView), [UIActivityIndicatorView](https://developer.apple.com/documentation/uikit/UIActivityIndicatorView)
 | [Radio](https://docs.flutter.io/flutter/material/Radio-class.html) | [RadioButton](https://docs.flutter.io/flutter/material/Radio-class.html), [RadioGroup](https://developer.android.com/reference/android/widget/RadioGroup) | [UISegmentedControl](https://developer.apple.com/documentation/uikit/UISegmentedControl) |
 | [How to create rating bar](https://stackoverflow.com/questions/46637566/how-to-create-rating-star-bar-properly) | [RatingBar](https://developer.android.com/reference/android/widget/RatingBar) | N/A |
-| [showDatePicker](https://docs.flutter.io/flutter/material/showDatePicker.html), [CupertinoDatePicker](https://docs.flutter.io/flutter/cupertino/CupertinoDatePicker-class.html) | [TimePicker](https://developer.android.com/reference/android/widget/TimePicker), [DatePicker](https://developer.android.com/reference/android/widget/DatePicker). [CalendarView]([CalendarView](https://developer.android.com/reference/android/widget/CalendarView)) | [UIDatePicker](https://developer.apple.com/documentation/uikit/uidatepicker) |
+| [ShowDatePicker](https://docs.flutter.io/flutter/material/showDatePicker.html), [CupertinoDatePicker](https://docs.flutter.io/flutter/cupertino/CupertinoDatePicker-class.html) | [TimePicker](https://developer.android.com/reference/android/widget/TimePicker), [DatePicker](https://developer.android.com/reference/android/widget/DatePicker), [CalendarView](https://developer.android.com/reference/android/widget/CalendarView) | [UIDatePicker](https://developer.apple.com/documentation/uikit/uidatepicker) |
 | [Custom Widget](https://pub.dartlang.org/packages/numberpicker) | [NumberPicker](https://developer.android.com/reference/android/widget/NumberPicker) | [UIPickerView](https://developer.apple.com/documentation/uikit/uipickerview) |
 | [DropDownButton](https://docs.flutter.io/flutter/material/DropdownButton-class.html) | [Spinner](https://developer.android.com/reference/android/widget/Spinner) | [UIPickerView](https://developer.apple.com/documentation/uikit/UIPickerView) |
 | [ExpansionTile](https://flutter.io/docs/catalog/samples/expansion-tile-sample) | [ExpandableWidget](https://developer.android.com/reference/com/google/android/material/expandable/ExpandableWidget) | N/A |
@@ -58,7 +58,7 @@
 | N/A | [RelativeLayout](https://developer.android.com/reference/android/widget/RelativeLayout), [ConstraintLayout](https://developer.android.com/reference/android/support/constraint/ConstraintLayout) | [Auto Layout](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html) |
 | [Table](https://docs.flutter.io/flutter/widgets/Table-class.html) | [TableLayout](https://developer.android.com/reference/android/widget/TableLayout) | [UITableViewCell](https://developer.apple.com/documentation/uikit/UITableViewCell) |
 | [GridView](https://docs.flutter.io/flutter/widgets/GridView-class.html) | [GridView](https://developer.android.com/guide/topics/ui/layout/gridview) | [UICollectionView](https://developer.apple.com/documentation/uikit/uicollectionview) |
-| [RefreshIndicator](https://docs.flutter.io/flutter/material/RefreshIndicator-class.html)[SwipeRefreshLayout](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout) | [UIRefreshControl](https://developer.apple.com/documentation/uikit/UIRefreshControl) |
+| [RefreshIndicator](https://docs.flutter.io/flutter/material/RefreshIndicator-class.html), [SwipeRefreshLayout](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout) | [UIRefreshControl](https://developer.apple.com/documentation/uikit/UIRefreshControl) |
 | [Scaffold](https://docs.flutter.io/flutter/material/Scaffold-class.html) | [CoordinatorLayout](https://developer.android.com/reference/android/support/design/widget/CoordinatorLayout) | [Auto Layout](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/index.html) |
 | [Card](https://docs.flutter.io/flutter/material/Card-class.html) | [CardView](https://docs.flutter.io/flutter/material/Card-class.html) | N/A |
 | [Stack](https://docs.flutter.io/flutter/widgets/Stack-class.html) | [FrameLayout](https://developer.android.com/reference/android/widget/FrameLayout) | [UIStackView](https://developer.apple.com/documentation/uikit/uistackview) |
@@ -73,5 +73,7 @@
 | [CupertinoAlertDialog](https://flutter.io/docs/development/ui/widgets/cupertino) | [AlertDialog](https://developer.android.com/reference/android/app/AlertDialog) | [Alerts](https://developer.apple.com/design/human-interface-guidelines/ios/views/alerts/) |
 
 ## Links
+
 [Flutter Cuppertino widgets](https://flutter.io/docs/development/ui/widgets/cupertino)
+
 [Flutter Material widgets](https://flutter.io/docs/development/ui/widgets/material)
